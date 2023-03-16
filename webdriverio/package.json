@@ -1,0 +1,19 @@
+{
+  "name": "my-new-project",
+  "type": "commonjs",
+  "devDependencies": {
+    "@wdio/cli": "^8.0.13",
+    "appium": "^1.22.3"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js",
+    "tc2": "wdio run ./wdio.conf.js --mochaOpts.grep TC2"
+  },
+  "dependencies": {
+    "@wdio/appium-service": "^8.0.13",
+    "@wdio/local-runner": "^8.0.13",
+    "@wdio/mocha-framework": "^8.0.13",
+    "@wdio/spec-reporter": "^8.0.13",
+    "chai": "^4.3.7"
+  }
+}
